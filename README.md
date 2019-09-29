@@ -2,7 +2,7 @@
 
  convert Gregorian date to Hijri date and vice versa.
 
-![Screenshot](resources/img/plugin-logo.png)
+ 
 
 ## Requirements
 
@@ -21,23 +21,5 @@ To install the plugin, follow these instructions.
         composer require aminembarki/hijri-dates
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for hijri-dates.
-
-## hijri-dates Overview
-
--Insert text here-
-
-## Configuring hijri-dates
-
--Insert text here-
-
-## Using hijri-dates
-
--Insert text here-
-
-## hijri-dates Roadmap
-
-Some things to do, and ideas for potential features:
-
-* Release it
 
 Brought to you by [Amine Mbarki](https://github.com/aminembarki)
