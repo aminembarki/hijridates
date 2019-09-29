@@ -10,8 +10,10 @@
 
 namespace aminembarki\hijridates\twigextensions;
 
-use aminembarki\hijridates\HijridatesTwigExtension;
+use aminembarki\hijridates;
 
+use GeniusTS\HijriDate\Translations\Arabic;
+    
 use Craft;
 
 /**
@@ -77,7 +79,12 @@ class HijridatesTwigExtension extends \Twig_Extension
      */
     public function convertToHijri($text = null)
     {
-        
+        \GeniusTS\HijriDate\Date::setTranslation(new Arabic);
+        \GeniusTS\HijriDate\Date::setToStringFormat('l d F o');
+
+        if($text=='now')
+        return  \GeniusTS\HijriDate\Date::now();
+
         $date = \GeniusTS\HijriDate\Hijri::convertToHijri($text);
 
         return $date;
