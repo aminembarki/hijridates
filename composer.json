@@ -1,0 +1,41 @@
+{
+    "name": "aminembarki/hijridates",
+    "description": "Craft plugin convert Gregorian date to Hijri date and vice versa.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "hijri-dates"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amine Mbarki",
+            "homepage": "https://github.com/aminembarki"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1",
+        "geniusts/hijri-dates": "*"
+    },
+    "autoload": {
+        "psr-4": {
+          "aminembarki\\hijridates\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "hijri-dates",
+        "handle": "hijri-dates",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "class": "aminembarki\\hijridates\\Hijridates"
+    }
+}
