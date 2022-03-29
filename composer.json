@@ -11,8 +11,8 @@
         "hijri-dates"
     ],
     "support": {
-        "docs": "???",
-        "issues": "???"
+        "docs": "https://github.com/aminembarki/hijridates/wiki",
+        "issues": "https://github.com/aminembarki/hijridates/issues"
     },
     "license": "MIT",
     "authors": [
