@@ -36,6 +36,9 @@
         "hasCpSettings": false,
         "hasCpSection": false,
         "changelogUrl": "???",
+         "branch-alias": {
+      "dev-master": "1.x"
+    },
         "class": "aminembarki\\hijridates\\Hijridates"
     }
 }
