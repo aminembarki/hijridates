@@ -35,10 +35,7 @@
         "handle": "hijri-dates",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "???",
-         "branch-alias": {
-      "dev-master": "1.x"
-    },
+        "changelogUrl": "https://github.com/aminembarki/hijridates/wiki",
         "class": "aminembarki\\hijridates\\Hijridates"
     }
 }
